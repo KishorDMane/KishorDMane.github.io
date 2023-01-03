@@ -17,16 +17,11 @@ nav {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
-nav .logo {
 
-    /* font-size: 33px;
-    color: white;
-    font-weight: 600; */
-}
 nav .logo>img{
-    width: 100%;
+    width: 20%;
     /* height: 100%; */
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 nav ul {
