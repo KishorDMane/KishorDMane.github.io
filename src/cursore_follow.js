@@ -21,8 +21,8 @@ class Circle {
       document.querySelector("body").append(this.circle);
     }
   }
-  
-  window.addEventListener("mousemove", function (e) {
+  let home=document.getElementById("homepage")
+  home.addEventListener("mousemove", function (e) {
     let c = new Circle();
     c.draw(e.clientX, e.clientY);
     let cicles = document.querySelectorAll(".circle");

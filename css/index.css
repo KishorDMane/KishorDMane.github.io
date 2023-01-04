@@ -51,25 +51,41 @@ nav ul li a.active {
     color: rgb(9, 8, 8);
     background: white;
 }
-nav .menu-btn i{
+nav .menu-btn img{
     color: white;
     font-size: 22px;
     cursor: pointer;
     display: none;
+    width: 40%;
+    margin-left: auto;
+}
+nav .menu-btn{
+    
+/* border: 1px solid red; */
+margin: auto;
+height: 100%;
+width: 20%;
+display: flex;
+align-items: center;
+
+
+
 }
 
 #click{
     display: none;
 }
 
-@media (max-width:840px) {
+@media (max-width:940px) {
 
-nav .menu-btn i{
+   
+
+nav .menu-btn img{
     display: block;
 }
-#click:checked~.menu-btn i:before{
+/* #click:checked~.menu-btn img:before{
     content:"\f00d"
-}
+} */
    
     nav ul {
         position: fixed;
@@ -110,4 +126,22 @@ nav .menu-btn i{
     }
 
 
+}
+@media (max-width:640px){
+    nav .menu-btn img{
+        
+        margin-right: auto;
+        margin-left: 0px;
+    }
+    nav .menu-btn{
+    
+        
+        margin-left: 0px;
+        margin-right: 50px;
+       
+        align-items: center;
+        
+        
+        
+        }
 }

@@ -1,6 +1,6 @@
 #homepage {
     /* border: 1px solid red; */
-    /* height: 600px; */
+    height: 600px;
     display: flex;
     padding-top: 80px;
     background-image: url("../img/Blue\ Aqua\ Minimalist\ Sea\ Soothes\ the\ Soul\ Quote\ Instagram\ Post.png");
@@ -8,9 +8,16 @@
     
 }
 
-#homepage>div {
+#homepage>div:nth-child(1) {
     /* border: 1px solid green; */
-    width: 50%;
+    width: 40%;
+    /* display: flex; */
+    background-image: url("../img/Blue\ Aqua\ Minimalist\ Sea\ Soothes\ the\ Soul\ Quote\ Instagram\ Post.png");
+   
+}
+#homepage>div:nth-child(2) {
+    /* border: 1px solid green; */
+    width: 70%;
     /* display: flex; */
     background-image: url("../img/Blue\ Aqua\ Minimalist\ Sea\ Soothes\ the\ Soul\ Quote\ Instagram\ Post.png");
    
@@ -24,7 +31,7 @@
 
 #image>img {
     width: 70%;
-    /* border-radius: 100%; */
+    border-radius: 100%;
 
 }
 
@@ -50,22 +57,25 @@
 #name>h1 {
     color: white;
 }
-
-#skils{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    /* align-items: center; */
-    justify-content: center;
-    text-align:center
-
+#name>p {
+    margin: 20px;
+    font-size: large;
+    color: white;
+    margin-right: 90px;
+}
+#name>button{
+    padding: 20px;
+    margin: 20px;
+    width: 120px;
+    font-size: large;
+    border: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#name>button:hover{
+    color: red;
 }
 
-#skils>div{
-    width: 70%;
-    height: 200px;
-    border: 1px solid red;
-    margin: auto;
-}
 
 
 
@@ -76,15 +86,32 @@
 
 
 
-
-@media (max-width:840px){
+@media (max-width:940px){
     #homepage{
-        display: block;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
         padding-top: 70px;
+        height: auto
     }
     #homepage>div{
         width: 100%;
         padding-top: 0px;
+        margin: auto;
+    }
+    #homepage>div:nth-child(1) {
+        /* border: 1px solid green; */
+        width: 100%;
+        /* display: flex; */
+        /* background-image: url("../img/Blue\ Aqua\ Minimalist\ Sea\ Soothes\ the\ Soul\ Quote\ Instagram\ Post.png"); */
+       
+    }
+    #homepage>div:nth-child(2) {
+        /* border: 1px solid green; */
+        width: 100%;
+        /* display: flex; */
+        /* background-image: url("../img/Blue\ Aqua\ Minimalist\ Sea\ Soothes\ the\ Soul\ Quote\ Instagram\ Post.png"); */
+       
     }
     #name>h1:nth-child(1) {
         padding-top: 0px;
@@ -92,13 +119,19 @@
     
     #name>h1:nth-child(1),
     #name>h1:nth-child(2) {
-        font-size: 30px;
+        font-size: 20px;
         margin: 0px;
-        margin-left: 20px;
+        margin-left: 10px;
     }
     
     #name>h1:nth-child(3) {
-        margin-left: 20px;
+        margin-left: 10px;
         font-size: 20px;
+    }
+    #name>p {
+        margin: 10px;
+        font-size:medium;
+        color: white;
+        margin-right: 5px;
     }
 }
