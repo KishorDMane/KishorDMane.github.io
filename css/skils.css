@@ -9,8 +9,27 @@
 
 #skils>div{
     width: 70%;
-    height: 200px;
-    border: 1px solid red;
+    /* height: 200px; */
+    /* border: 1px solid red; */
     margin: auto;
 }
 
+.techSkillName{
+    font-size: 50px;
+    margin-top: 20px;
+}
+.techskills{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+}
+.techskills>div>img{
+    width: 100%;
+
+}
+.techskills>div{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#skils img{
+    position:static;
+}

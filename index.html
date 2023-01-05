@@ -5,30 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- <link rel="stylesheet" href="./css/wave.css"> -->
+   
     <link rel="stylesheet" href="./css/cursore_follow.css">
+    <link rel="stylesheet" href="css/animate.css">
 
-    <!--  -->
+   
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/homepage.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"  />
+   
 
     <link rel="stylesheet" href="./css/skils.css">
+    <script src="./src/nav.js"></script>
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/animate.css"> -->
 
 
 
 </head>
 <body>
-    <nav>
+    <nav >
         <div class="logo"><img src="./img/Pink Typography .png" alt=""></div>
         <input type="checkbox" id="click">
         <label for="click" class="menu-btn">
-            <!-- <i class="fa fa-bars"></i> -->
+          
             <img src="./img/menu.png" alt="">
-            <!-- <i class="fa-regular fa-bars"></i> -->
+           
         </label>
         <ul>
             <li><a class="active" href="#">Home</a></li>
@@ -46,29 +48,52 @@
 
     <div id="homepage">
         <div id="image">
-            <img src="./img/Untitled design (1).png" alt="">
+            <img data-aos="zoom-in" src="./img/Untitled design (1).png" alt="">
         </div>
         <div id="name">
 
-            <h1 class="animate__bounceIn">Hi,</h1>
-            <h1 class="animate__bounceIn">I'm Kishor Mane</h1>
-            <h1 class="animate__bounceIn">Node.JS Backend Developer</h1>
-            <p>A highly motivated Backend Developer with extensive knowledge of Node.js, MongoDB, and Express.js. Experienced in developing, testing, and deploying backend applications. Highly organized and detail-oriented, with the ability to quickly understand complex requirements and work in a fast-paced environment. Dedicated to providing excellent customer service and meeting project deadlines.</p>
-            <button>Resume</button>
+            <h1 data-aos="zoom-in-up">Hi,</h1>
+            <h1 >I'm Kishor Mane</h1>
+            <h1 >Node.JS Backend Developer</h1>
+            <p >A highly motivated Backend Developer with extensive knowledge of Node.js, MongoDB, and Express.js. Experienced in developing, testing, and deploying backend applications. Highly organized and detail-oriented, with the ability to quickly understand complex requirements and work in a fast-paced environment. Dedicated to providing excellent customer service and meeting project deadlines.</p>
+            <button >Resume</button>
         </div>
 
     </div>
     <div id="skils">
-        <h1 id="techSkillName" class="animate__backInUp">Techinal Skills</h1>
-        <div id="Techinal">
+        <h1 class="techSkillName" >Techinal Skills</h1>
+        <div  class="techskills" id="Techinal">
+            <div data-aos="zoom-in-up"   data-aos-anchor-placement="bottom-bottom">
+                <img   src="./img/nodejs.71a23beab09f12064284.png" alt="">
+            </div>
+            <div data-aos="zoom-in-up"  data-aos-anchor-placement="bottom-bottom" >
+                <img   src="./img/mongodb-.svg" alt="">
+            </div>
+            <div data-aos="zoom-in-up"  data-aos-delay="200" >
+                <img src="./img/express.png" alt="">
+            </div>
+            <div  data-aos="zoom-in-up"  data-aos-delay="200" >
+                <img src="./img/nodejs-1-logo.png" alt="">
+            </div>
+            <div data-aos="zoom-in-up"  data-aos-delay="200" >
+                <img src="./img/Html.png" alt="">
+            </div>
+            <div data-aos="zoom-in-up"  data-aos-delay="200" >
+                <img src="./img/Css.png" alt="">
+            </div>
+            
 
         </div>
 
-        <h1 class="animate__backInUp">Tools</h1>
-        <div id="tools"></div>
+        <h1  class="techSkillName" >Tools</h1>
+        <div class="techskills" id="tools">
+            <div data-aos="zoom-in-up"  data-aos-delay="200"  >
+                <img   src="./img/nodejs.71a23beab09f12064284.png" alt="">
+            </div>
+            
+        </div>
 
     </div>
-
 
 
 
@@ -82,3 +107,14 @@
 </body>
 </html>
 <script src="./src/cursore_follow.js"></script>
+
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+   <script src="js/wow.min.js"></script>
+   <!-- <script>
+   new WOW().init();
+   </script> -->
