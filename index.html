@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   
+
     <link rel="stylesheet" href="./css/cursore_follow.css">
     <link rel="stylesheet" href="css/animate.css">
 
-   
+
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/homepage.css">
-   
+
 
     <link rel="stylesheet" href="./css/skils.css">
+
     <script src="./src/nav.js"></script>
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/project.css">
     <!-- <link rel="stylesheet" href="css/animate.css"> -->
 
 
 
 </head>
+
 <body>
-    <nav >
+    <nav>
         <div class="logo"><img src="./img/Pink Typography .png" alt=""></div>
         <input type="checkbox" id="click">
         <label for="click" class="menu-btn">
-          
+
             <img src="./img/menu.png" alt="">
-           
+
         </label>
         <ul>
-            <li><a class="active" href="#">Home</a></li>
+            <li><a class="active" href="#homepage">Home</a></li>
             <li><a href="#">About Me</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Project</a></li>
+            <li><a href="#skils">Skills</a></li>
+            <li><a href="#project">Project</a></li>
             <li><a href="#">Content Me</a></li>
+            <li><a href="#">Resume</a></li>
+
 
         </ul>
 
@@ -53,46 +59,143 @@
         <div id="name">
 
             <h1 data-aos="zoom-in-up">Hi,</h1>
-            <h1 >I'm Kishor Mane</h1>
-            <h1 >Node.JS Backend Developer</h1>
-            <p >A highly motivated Backend Developer with extensive knowledge of Node.js, MongoDB, and Express.js. Experienced in developing, testing, and deploying backend applications. Highly organized and detail-oriented, with the ability to quickly understand complex requirements and work in a fast-paced environment. Dedicated to providing excellent customer service and meeting project deadlines.</p>
-            <button >Resume</button>
+            <h1>I'm Kishor Mane</h1>
+            <h1>Node.JS Backend Developer</h1>
+            <p>A highly motivated Backend Developer with extensive knowledge of Node.js, MongoDB, and Express.js.
+                Experienced in developing, testing, and deploying backend applications. Highly organized and
+                detail-oriented, with the ability to quickly understand complex requirements and work in a fast-paced
+                environment. Dedicated to providing excellent customer service and meeting project deadlines.</p>
+            <button>Resume</button>
         </div>
 
     </div>
     <div id="skils">
-        <h1 class="techSkillName" >Techinal Skills</h1>
-        <div  class="techskills" id="Techinal">
-            <div data-aos="zoom-in-up"   data-aos-anchor-placement="bottom-bottom">
-                <img   src="./img/nodejs.71a23beab09f12064284.png" alt="">
-            </div>
-            <div data-aos="zoom-in-up"  data-aos-anchor-placement="bottom-bottom" >
-                <img   src="./img/mongodb-.svg" alt="">
-            </div>
-            <div data-aos="zoom-in-up"  data-aos-delay="200" >
-                <img src="./img/express.png" alt="">
-            </div>
-            <div  data-aos="zoom-in-up"  data-aos-delay="200" >
+        <h1 style="margin-top: 50px;" class="techSkillName">Techinal Skills</h1>
+        <div class="techskills" id="Techinal" style="margin-top: 30px;">
+
+
+            <div data-aos="flip-left" data-aos-delay="20">
                 <img src="./img/nodejs-1-logo.png" alt="">
             </div>
-            <div data-aos="zoom-in-up"  data-aos-delay="200" >
+            <div data-aos="flip-left" data-aos-delay="20">
+                <img src="./img/mongodb-.svg" alt="">
+            </div>
+            <div data-aos="flip-left" data-aos-delay="20">
+                <img src="./img/express.png" alt="">
+            </div>
+            <div data-aos="flip-left" data-aos-delay="20">
                 <img src="./img/Html.png" alt="">
             </div>
-            <div data-aos="zoom-in-up"  data-aos-delay="200" >
+            <div data-aos="flip-left" data-aos-delay="20">
                 <img src="./img/Css.png" alt="">
             </div>
-            
-
-        </div>
-
-        <h1  class="techSkillName" >Tools</h1>
-        <div class="techskills" id="tools">
-            <div data-aos="zoom-in-up"  data-aos-delay="200"  >
-                <img   src="./img/nodejs.71a23beab09f12064284.png" alt="">
+            <div data-aos="flip-left" data-aos-delay="20">
+                <img src="./img/js-removebg-preview.png" alt="">
             </div>
-            
+
+
         </div>
 
+        <h1 id="tools" style="margin-top: 50px;" class="techSkillName">Tools</h1>
+        <div style="margin-top: 20px" ; class="techskills" id="tools">
+            <div data-aos="flip-left" data-aos-delay="20">
+                <img src="./img/github.png" alt="">
+            </div>
+            <div data-aos="flip-left" data-aos-delay="20">
+                <img src="./img/git.png" alt="">
+            </div>
+            <div data-aos="flip-left" data-aos-delay="20">
+                <img src="./img/vscode.9bc6e588b5f2b867a8a4.png" alt="">
+            </div>
+            <div data-aos="flip-left" data-aos-delay="20">
+                <img src="./img" alt="">
+            </div>
+            <div data-aos="flip-left" data-aos-delay="20">
+                <img src="./img" alt="">
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="project">
+        <h1>Projects</h1>
+
+        <div class="project_div">
+            <div data-aos="fade-right" data-aos-delay="400">
+                <div class="project_img">
+                    <img src="./img/overstock.png" alt="">
+                </div>
+                <div class="project_discription">
+                    <h1>OverStock Clone</h1>
+                    <h2>OverStock is an e-commerce Website primarily sales furniture as well home decors.</h2>
+                    <p>Features: User's Wishlist, Cart, Payment, and Order pages as well as Seller's Order management,
+                        Customer details, Edit and Add new products.</p>
+                    <p>Tech Stack: HTML, CSS, JavaScript, ExpressJS, and MongoDB</p>
+                    <div>
+                        <button>Github</button>
+                        <button>Deployed</button>
+                    </div>
+
+
+                </div>
+            </div>
+            <div data-aos="fade-left" data-aos-delay="400">
+                <div class="project_img">
+                    <img src="./img/overstock.png" alt="">
+                </div>
+                <div class="project_discription">
+                    <h1>OverStock Clone</h1>
+                    <h2>OverStock is an e-commerce Website primarily sales furniture as well home decors.</h2>
+                    <p>Features: User's Wishlist, Cart, Payment, and Order pages as well as Seller's Order management,
+                        Customer details, Edit and Add new products.</p>
+                    <p>Tech Stack: HTML, CSS, JavaScript, ExpressJS, and MongoDB</p>
+                    <div>
+                        <button>Github</button>
+                        <button>Deployed</button>
+                    </div>
+
+
+                </div>
+            </div>
+            <div data-aos="fade-right" data-aos-delay="400">
+                <div class="project_img">
+                    <img src="./img/overstock.png" alt="">
+                </div>
+                <div class="project_discription">
+                    <h1>OverStock Clone</h1>
+                    <h2>OverStock is an e-commerce Website primarily sales furniture as well home decors.</h2>
+                    <p>Features: User's Wishlist, Cart, Payment, and Order pages as well as Seller's Order management,
+                        Customer details, Edit and Add new products.</p>
+                    <p>Tech Stack: HTML, CSS, JavaScript, ExpressJS, and MongoDB</p>
+                    <div>
+                        <button>Github</button>
+                        <button>Deployed</button>
+                    </div>
+
+
+                </div>
+            </div>
+            <div data-aos="fade-left" data-aos-delay="400">
+                <div class="project_img">
+                    <img src="./img/overstock.png" alt="">
+                </div>
+                <div class="project_discription">
+                    <h1>OverStock Clone</h1>
+                    <h2>OverStock is an e-commerce Website primarily sales furniture as well home decors.</h2>
+                    <p>Features: User's Wishlist, Cart, Payment, and Order pages as well as Seller's Order management,
+                        Customer details, Edit and Add new products.</p>
+                    <p>Tech Stack: HTML, CSS, JavaScript, ExpressJS, and MongoDB</p>
+                    <div>
+                        <button>Github</button>
+                        <button>Deployed</button>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
     </div>
 
 
@@ -105,6 +208,7 @@
     </div>
 
 </body>
+
 </html>
 <script src="./src/cursore_follow.js"></script>
 
@@ -113,8 +217,8 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
-  </script>
-   <script src="js/wow.min.js"></script>
-   <!-- <script>
+</script>
+<script src="js/wow.min.js"></script>
+<!-- <script>
    new WOW().init();
    </script> -->

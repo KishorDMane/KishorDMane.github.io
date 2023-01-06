@@ -102,10 +102,15 @@
     #homepage>div:nth-child(1) {
         /* border: 1px solid green; */
         width: 100%;
+        margin-top: 10px;
         /* display: flex; */
         /* background-image: url("../img/Blue\ Aqua\ Minimalist\ Sea\ Soothes\ the\ Soul\ Quote\ Instagram\ Post.png"); */
        
     }
+    
+#homepage>div:nth-child(1)>img{
+    width: 50%;
+}
     #homepage>div:nth-child(2) {
         /* border: 1px solid green; */
         width: 100%;

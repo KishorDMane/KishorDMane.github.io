@@ -1,35 +1,54 @@
-#skils{
+#skils {
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
     /* align-items: center; */
     justify-content: center;
-    text-align:center
-
+    text-align: center
 }
 
-#skils>div{
+#skils>div {
     width: 70%;
     /* height: 200px; */
     /* border: 1px solid red; */
     margin: auto;
 }
 
-.techSkillName{
+#Techinal {}
+
+.techSkillName {
     font-size: 50px;
     margin-top: 20px;
 }
-.techskills{
+
+.techskills {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 20px;
+
 }
-.techskills>div>img{
+
+.techskills>div>img {
     width: 100%;
 
 }
-.techskills>div{
+
+.techskills>div {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
-#skils img{
-    position:static;
+
+#tools {
+    margin-top: 30px;
+}
+
+#skils img {
+    /* position:static; */
+}
+
+@media (max-width:940px) {
+    .techskills {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+
+    }
 }
