@@ -3,7 +3,7 @@
     height: 600px;
     display: flex;
     padding-top: 80px;
-    background-image: url("../img/Blue\ Aqua\ Minimalist\ Sea\ Soothes\ the\ Soul\ Quote\ Instagram\ Post.png");
+    /* background-image: url("../img/Blue\ Aqua\ Minimalist\ Sea\ Soothes\ the\ Soul\ Quote\ Instagram\ Post.png"); */
     /* background-color: rgb(24, 80, 136) */
     
 }
@@ -12,14 +12,14 @@
     /* border: 1px solid green; */
     width: 40%;
     /* display: flex; */
-    background-image: url("../img/Blue\ Aqua\ Minimalist\ Sea\ Soothes\ the\ Soul\ Quote\ Instagram\ Post.png");
+    /* background-image: url("../img/Blue\ Aqua\ Minimalist\ Sea\ Soothes\ the\ Soul\ Quote\ Instagram\ Post.png"); */
    
 }
 #homepage>div:nth-child(2) {
     /* border: 1px solid green; */
     width: 70%;
     /* display: flex; */
-    background-image: url("../img/Blue\ Aqua\ Minimalist\ Sea\ Soothes\ the\ Soul\ Quote\ Instagram\ Post.png");
+    /* background-image: url("../img/Blue\ Aqua\ Minimalist\ Sea\ Soothes\ the\ Soul\ Quote\ Instagram\ Post.png"); */
    
 }
 
