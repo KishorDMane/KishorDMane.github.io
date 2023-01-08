@@ -8,7 +8,7 @@
     <title>Document</title>
 
    
-    <link rel="stylesheet" href="css/animate.css">
+    <!-- <link rel="stylesheet" href="css/animate.css"> -->
 
 
     <link rel="stylesheet" href="./css/index.css">
@@ -29,6 +29,9 @@
 
 
 </head>
+<style>
+    
+</style>
 
 <body>
     <nav>
@@ -98,10 +101,7 @@
             <div data-aos="flip-left" data-aos-delay="20">
                 <img src="./img/js-removebg-preview.png" alt="">
             </div>
-
-
         </div>
-
         <h1 id="tools" style="margin-top: 50px;" class="techSkillName">Tools</h1>
         <div class="techskills" id="tools" style=" width: 50%; margin-top: 10px;">
             <div data-aos="flip-left" data-aos-delay="20">
@@ -119,9 +119,7 @@
             <div data-aos="flip-left" data-aos-delay="20">
                 <img src="./img/Google_Chrome_icon_(February_2022).svg.png" alt="">
             </div>
-
         </div>
-
     </div>
     <div id="github">
         <h1>My Statistics</h1>
@@ -132,13 +130,12 @@
                 alt="">
 
         </div>
+        
     </div>
-
-
-
-
-
-
+    <div class="calendar">
+        <!-- Loading stuff -->
+        Loading the data just for you.
+    </div>
     <div id="projjjjjjjjjjjjjjjj"></div>
     <div id="project">
         <h1>Projects</h1>
@@ -221,4 +218,38 @@
 <script>
     AOS.init();
 </script>
-<script src="js/wow.min.js"></script>
+
+
+<!-- Include the library. -->
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
+
+<script>
+    GitHubCalendar(".calendar", "kishordmane");
+
+    // or enable responsive functionality:
+    GitHubCalendar(".calendar", "kishordmane", { responsive: true });
+
+    // Use a proxy
+    GitHubCalendar(".calendar", "kishordmane", {
+       proxy (kishordmane) {
+         return fetch(`https://your-proxy.com/github?user=${kishordmane}`)
+       }
+    }).then(r => r.text())
+</script>
+
+
+
+
+
+
+
+
+

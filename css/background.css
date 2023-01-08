@@ -9,8 +9,8 @@
         -45deg, 
         rgb(33, 71, 109) 0%, 
         rgb(38, 104, 170) 25%, 
-        rgb(78, 55, 209) 51%, 
-        rgb(153, 84, 231) 100%
+        rgb(160, 52, 231) 51%, 
+        rgb(96, 26, 99) 100%
   );  
   animation: AnimateBG 20s ease infinite;
 }
