@@ -1,0 +1,60 @@
+#contact {
+    background-color: rgb(24, 80, 136);
+    margin-top: 50px;
+    height: 500px;
+    padding: auto;
+}
+
+#contact>div {
+    margin: auto;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 30px;
+
+}
+
+#contact>div>h1 {
+    margin-top: 80px;
+    color: white;
+}
+
+#contact>div>h3 {
+    margin-top: 40px;
+    color: white;
+
+}
+
+#contact>div {
+    width: 30%;
+
+}
+
+#contact>div>div {
+    width: 30%;
+    display: flex;
+}
+
+#contact>div>div {
+    width: 30%;
+    padding: 0px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#contact>div>div>img {
+    width: 30%;
+    margin: 0px;
+    background-color: white;
+    border-radius: 5px;
+    margin: auto;
+
+}
+
+@media (max-width:940px) {
+    #contact>div {
+        width: 100%;
+    }
+}
