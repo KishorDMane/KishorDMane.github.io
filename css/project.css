@@ -27,9 +27,15 @@ width: 70%;
 .project_div>div>div:nth-child(2){
     width: 50%;
 }
-
+.project_img{
+   display: grid;
+    justify-content: center;
+    align-items: center;
+}
 .project_img>img{
     width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 .project_discription{
     text-align: left;
