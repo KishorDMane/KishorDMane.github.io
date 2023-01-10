@@ -86,3 +86,13 @@
 }
 
 
+.calendar{
+    width: 60%;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+#gitcalendar{
+    display: grid;
+    justify-content: center;
+    margin-top: 40px;
+}
