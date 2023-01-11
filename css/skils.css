@@ -2,18 +2,21 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
-    text-align: center
+    text-align: center;
+    width: 70%;
+   margin: auto;
 }
 
 #skils>div {
-    width: 70%;
-
+    width: 50%;
+    /* border: 1px solid red; */
     margin: auto;
 }
 
-#Techinal {
-    width: 50%;
-}
+/* #Techinal {
+    width: 30%;
+    border: 1px solid red;
+} */
 
 .techSkillName {
     font-size: 30px;
@@ -23,7 +26,7 @@
 .techskills {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
+    gap: 30px;
     /* width: 40%; */
     justify-content: center;
 
