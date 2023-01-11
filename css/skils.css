@@ -51,7 +51,7 @@
 
 
 
-#github{
+#github_kishor_mane{
 
 
     width: 80%;
@@ -59,21 +59,32 @@
     text-align: center;
     margin-top: 70px;
 }
-#github>div{
+#github_kishor_mane>div{
 
 
     width: 90%;
-    display: flex;
+    /* display: flex; */
     margin: auto;
     text-align: center;
     align-items: center;
     justify-content: center;
     margin-top: 40px;
 }
-#github>div>img{
+#github_kishor_mane>div>img{
 
 
     width: 45%;
+}
+
+.calendar{
+    width: 70%;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+#gitcalendar{
+    display: grid;
+    justify-content: center;
+    margin-top: 40px;
 }
 
 @media (max-width:940px) {
@@ -83,16 +94,26 @@
         gap: 10px;
 
     }
-}
-
-
-.calendar{
-    width: 60%;
-    margin-top: 50px;
-    padding-top: 30px;
-}
-#gitcalendar{
-    display: grid;
-    justify-content: center;
-    margin-top: 40px;
+    #github_kishor_mane{
+        width: 90%;
+        /* border: 2px solid red; */
+        display: block;
+    }
+    
+    #github_kishor_mane>div{
+        width: 90%;
+        /* border: 2px solid red; */
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+        /* margin: 0px; */
+    }
+    #github_kishor_mane>div>img{
+       width: 100%;
+       margin-top: 10px;
+       /* width: 200% */
+    }
+    .calendar{
+        width: 90%;
+    }
 }
