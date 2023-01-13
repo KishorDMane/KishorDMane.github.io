@@ -66,7 +66,7 @@ nav .menu-btn {
 
 @media (max-width: 940px) {
   nav{
-    width: 91%;
+    width: 100%;
     padding: 0px 0px 0px 0px;
   }
   nav .menu-btn img {
@@ -110,7 +110,7 @@ nav .menu-btn {
     display: block;
   }
 }
-@media (max-width: 650px) {
+@media (max-width: 50px) {
  
   /* #click:checked~.menu-btn img:before{
     content:"\f00d"
@@ -128,7 +128,7 @@ nav .menu-btn {
     transition: all 0.5s ease;
   }
   #click:checked ~ ul {
-    left: 0%;
+    left: -0%;
   }
   nav ul li {
     margin: 40px 0px;
@@ -156,3 +156,98 @@ nav .menu-btn {
   }
   
 }
+
+@media (max-width: 900px){
+nav{
+  width: 99%;
+}
+#click:checked ~ ul {
+  left: 0%;
+}
+}
+
+@media (max-width: 850px){
+  nav{
+    width: 98%;
+  }
+  #click:checked ~ ul {
+    /* left: -10%; */
+  }
+  
+  }
+  
+@media (max-width: 800px){
+  nav{
+    width: 96%;
+  }
+  #click:checked ~ ul {
+    /* left: -10%; */
+  }
+  }
+  
+  @media (max-width: 750px){
+    nav{
+      width: 95%;
+    }
+    #click:checked ~ ul {
+      /* left: -10%; */
+    }
+    
+    }
+    @media (max-width: 600px){
+      nav{
+        width: 94%;
+      }
+      #click:checked ~ ul {
+        /* left: -10%; */
+      }
+      }
+      
+      @media (max-width: 550px){
+        nav{
+          width: 93%;
+        }
+        #click:checked ~ ul {
+          left: -7%;
+        }
+        
+        }
+        
+      @media (max-width: 500px){
+        nav{
+          width: 93%;
+        }
+        #click:checked ~ ul {
+          left: -10%;
+        }
+        
+        }
+        
+      @media (max-width: 450px){
+        nav{
+          width: 91%;
+        }
+        #click:checked ~ ul {
+          left: -10%;
+        }
+        }
+        
+        @media (max-width: 400px){
+          nav{
+            width: 86%;
+          }
+          #click:checked ~ ul {
+            left: -10%;
+          }
+          
+          }
+        
+      @media (max-width: 350px){
+        nav{
+          width: 85%;
+        }
+        #click:checked ~ ul {
+          left: -10%;
+        }
+        }
+   
