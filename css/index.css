@@ -156,7 +156,7 @@ nav .menu-btn {
   }
   
 }
-
+/* 
 @media (max-width: 900px){
 nav{
   width: 99%;
@@ -170,9 +170,7 @@ nav{
   nav{
     width: 98%;
   }
-  #click:checked ~ ul {
-    /* left: -10%; */
-  }
+  
   
   }
   
@@ -180,27 +178,21 @@ nav{
   nav{
     width: 96%;
   }
-  #click:checked ~ ul {
-    /* left: -10%; */
-  }
+
   }
   
   @media (max-width: 750px){
     nav{
       width: 95%;
     }
-    #click:checked ~ ul {
-      /* left: -10%; */
-    }
+   
     
     }
     @media (max-width: 600px){
       nav{
         width: 94%;
       }
-      #click:checked ~ ul {
-        /* left: -10%; */
-      }
+     
       }
       
       @media (max-width: 550px){
@@ -250,4 +242,4 @@ nav{
           left: -10%;
         }
         }
-   
+    */
