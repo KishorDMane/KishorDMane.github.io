@@ -49,11 +49,11 @@ nav .menu-btn img {
   cursor: pointer;
   display: none;
   width: 40%;
-  margin-left: auto;
+  /* margin-left: auto; */
 }
 nav .menu-btn {
   /* border: 1px solid red; */
-  margin: auto;
+  /* margin: auto; */
   height: 100%;
   width: 20%;
   display: flex;
@@ -67,7 +67,8 @@ nav .menu-btn {
 @media (max-width: 940px) {
   nav{
     width: 100%;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 50px;
+    /* justify-content: center; */
   }
   nav .menu-btn img {
     display: block;
@@ -76,6 +77,10 @@ nav .menu-btn {
   /* #click:checked~.menu-btn img:before{
     content:"\f00d"
 } */
+nav .logo img{
+  margin: 0px ;
+  padding: 0px;
+}
 
   nav ul {
     position: fixed;
@@ -110,62 +115,19 @@ nav .menu-btn {
     display: block;
   }
 }
-@media (max-width: 50px) {
- 
-  /* #click:checked~.menu-btn img:before{
-    content:"\f00d"
-} */
 
-  nav ul {
-    position: fixed;
-    top: 80px;
-    left: -100%;
-    background: rgb(24, 80, 136);
-    height: 100vh;
+@media (max-width: 800px){
+ nav{
     width: 100%;
-    display: block;
-    text-align: center;
-    transition: all 0.5s ease;
-  }
-  #click:checked ~ ul {
-    left: -0%;
-  }
-  nav ul li {
-    margin: 40px 0px;
-  }
-  nav ul li a {
-    font-size: 20px;
-    display: block;
-  }
-  nav ul li a:hover,
-  nav ul li a.active {
-    color: cyan;
-    background: none;
-  }
-  nav .menu-btn i {
-    color: white;
-    font-size: 22px;
-    cursor: pointer;
-    display: block;
-  }
-  .menu-btn{
-    margin-right: 20px;
-  }
-  .menu-btn>img{
-    margin-right: 20px;
+    padding: 0px 0px 0px 0px;
+    justify-content: center;
   }
   
-}
-/* 
-@media (max-width: 900px){
-nav{
-  width: 99%;
-}
 #click:checked ~ ul {
   left: 0%;
 }
 }
-
+/* 
 @media (max-width: 850px){
   nav{
     width: 98%;
@@ -242,4 +204,4 @@ nav{
           left: -10%;
         }
         }
-    */
+     */
