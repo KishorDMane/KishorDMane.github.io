@@ -25,3 +25,9 @@ document.getElementById("jio_git").addEventListener("click",()=>{
 document.getElementById("jio_deployse").addEventListener("click",()=>{
     window.open("https://strong-alfajores-c5eb1f.netlify.app")
 })
+document.getElementById("githubprofile").addEventListener("click",()=>{
+    window.open("https://github.com/KishorDMane")
+})
+document.getElementById("linkedinprofile").addEventListener("click",()=>{
+    window.open("https://www.linkedin.com/in/kishor-mane/")
+})
