@@ -2,7 +2,8 @@
   margin: 0px;
   padding: 0px;
   font-family: "Poppins", sans-serif;
-  overflow: hidden;
+  /* overflow: auto */
+  overflow-x: hidden;
 }
 nav {
   height: 80px;
@@ -16,7 +17,8 @@ nav {
   z-index: 10;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    overflow: hidden;
+    
+    overflow:hidden;
 }
 nav .logo > img {
   width: 15%;
@@ -24,9 +26,12 @@ nav .logo > img {
 nav ul {
   display: flex;
   list-style: none;
+  
+  overflow:hidden;
 }
 nav ul li {
   margin: 0px 5px;
+  overflow:hidden;
 }
 nav ul li a {
   color: rgb(255, 255, 255);
@@ -38,6 +43,8 @@ nav ul li a {
   padding: 8px 10px;
   border-radius: 5px;
   transition: all 0.3s ease;
+  overflow:hidden;
+
 }
 
 nav ul li a:hover,
@@ -52,6 +59,7 @@ nav .menu-btn img {
   display: none;
   width: 40%;
   /* margin-left: auto; */
+  overflow:hidden;
 }
 nav .menu-btn {
   /* border: 1px solid red; */
@@ -60,6 +68,7 @@ nav .menu-btn {
   width: 20%;
   display: flex;
   align-items: center;
+  
 }
 
 #click {
@@ -68,10 +77,9 @@ nav .menu-btn {
 
 @media (max-width: 940px) {
   nav{
-    width: 100%;
-    padding: 0px 0px 0px 50px;
+    /* width: 100%;
+    padding: 0px 0px 0px 50px; */
     justify-content: space-between;
-    overflow: hidden;
   }
   nav .menu-btn img {
     display: block;
@@ -95,7 +103,7 @@ nav .logo img{
     display: block;
     text-align: center;
     transition: all 0.5s ease;
-    overflow: hidden;
+    overflow:hidden;
   }
   #click:checked ~ ul {
     left: 0%;
@@ -120,26 +128,30 @@ nav .logo img{
   }
 }
 
-@media (max-width: 800px){
+@media (max-width: 500px){
  nav{
     width: 100%;
-    padding: 0px 0px 0px 0px;
-    justify-content: right;
-    overflow: hidden;
+    /* padding: 0px 0px 0px 0px; */
+    justify-content: center;
+
   }
   
 #click:checked ~ ul {
   left: 0%;
 }
+.logo{
+  width: 50%;
 }
-/* 
-@media (max-width: 850px){
+}
+@media (max-width: 450px){
   nav{
-    width: 98%;
+    justify-content: left;
+    
   }
   
   
   }
+/* 
   
 @media (max-width: 800px){
   nav{
