@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
   font-family: "Poppins", sans-serif;
-  /* overflow: auto */
+ 
   overflow-x: hidden;
 }
 nav {
@@ -18,7 +18,7 @@ nav {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
     
-    overflow:hidden;
+    /* overflow:hidden; */
 }
 nav .logo > img {
   width: 15%;
@@ -27,12 +27,9 @@ nav ul {
   display: flex;
   list-style: none;
   
-  overflow:hidden;
+  
 }
-nav ul li {
-  margin: 0px 5px;
-  overflow:hidden;
-}
+
 nav ul li a {
   color: rgb(255, 255, 255);
   text-decoration: none;
@@ -45,6 +42,11 @@ nav ul li a {
   transition: all 0.3s ease;
   overflow:hidden;
 
+}
+nav ul li {
+  margin: 0px 5px;
+  padding: 10px;
+  /* overflow:hidden; */
 }
 
 nav ul li a:hover,
