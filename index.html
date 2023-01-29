@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="./css/background.css" />
     <link rel="stylesheet" href="./css/borderAnimation.css" /> 
     <link rel="stylesheet" href="./css/contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+    />
   </head>
   <body>
     <nav>
@@ -121,9 +125,8 @@
     <div id="gitcalendar">
       <h1 style="margin: auto">Github Calendar</h1>
     </div>
-    <div class="calendar" style="margin-top: 50px">
-      <!-- Loading stuff -->
-      Loading the data just for you.
+    <div class="calendar" >
+      <!-- github callender -->
     </div>
     <div id="projjjjjjjjjjjjjjjj"></div>
     <div id="project">
@@ -305,10 +308,6 @@
 <!-- Include the library. -->
 <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-<link
-  rel="stylesheet"
-  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
-/>
 <script>
   // GitHubCalendar(".calendar", "kishordmane");
   // or enable responsive functionality:
@@ -326,7 +325,14 @@
     height: 0px;
   }
   .calendar {
-    min-height: auto;
+    min-height: auto; 
+    margin-top: 50px
+  } 
+  #user-activity-overview{
+    display: none;
+  }
+  .position-relative>div>div:nth-child(1){
+    display: none;
   }
 </style>
 <script src="./src/resume.js"></script>
