@@ -1,14 +1,31 @@
-let btn=document.getElementById("button")
-btn.addEventListener("click",async()=>{  
-    window.open("https://drive.google.com/u/0/uc?id=1vCoAWwfoIguQHzeeyadGaWNapsln_fDv&export=download");
-    window.open("https://drive.google.com/file/d/1vCoAWwfoIguQHzeeyadGaWNapsln_fDv/view?usp=share_link");
-})
+let btn = document.getElementById("button");
+btn.addEventListener("click", async () => {  
+    let downloadLink = document.createElement("a");
+    downloadLink.href = "https://drive.google.com/u/0/uc?id=1vCoAWwfoIguQHzeeyadGaWNapsln_fDv&export=download";
+    downloadLink.target = "_blank";
+    downloadLink.click();
+
+    let viewLink = document.createElement("a");
+    viewLink.href = "https://drive.google.com/file/d/1vCoAWwfoIguQHzeeyadGaWNapsln_fDv/view?usp=share_link";
+    viewLink.target = "_blank";
+    viewLink.click();
+});
+
+
+
 
 let resumeDownload = document.getElementById("resumeDownload");
-resumeDownload.addEventListener("click",async()=>{  
-    window.location.href="https://drive.google.com/u/0/uc?id=1vCoAWwfoIguQHzeeyadGaWNapsln_fDv&export=download";
-    window.open("https://drive.google.com/file/d/1vCoAWwfoIguQHzeeyadGaWNapsln_fDv/view?usp=share_link")
-})
+resumeDownload.addEventListener("click", async () => {  
+    let downloadLink = document.createElement("a");
+    downloadLink.href = "https://drive.google.com/u/0/uc?id=1vCoAWwfoIguQHzeeyadGaWNapsln_fDv&export=download";
+    downloadLink.target = "_blank";
+    downloadLink.click();
+
+    let viewLink = document.createElement("a");
+    viewLink.href = "https://drive.google.com/file/d/1vCoAWwfoIguQHzeeyadGaWNapsln_fDv/view?usp=share_link";
+    viewLink.target = "_blank";
+    viewLink.click();
+});
 
 document.getElementById("OverStock_git").addEventListener("click",()=>{
     window.open("https://github.com/rohithanss/OverStock-Clone")
