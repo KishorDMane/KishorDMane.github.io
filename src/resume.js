@@ -1,10 +1,14 @@
 let btn=document.getElementById("button")
-btn.addEventListener("click",async()=>{
+btn.addEventListener("click",async()=>{  
     window.open("https://drive.google.com/u/0/uc?id=1vCoAWwfoIguQHzeeyadGaWNapsln_fDv&export=download");
-    window.location.href="https://drive.google.com/file/d/1vCoAWwfoIguQHzeeyadGaWNapsln_fDv/view?usp=share_link"
+    window.open("https://drive.google.com/file/d/1vCoAWwfoIguQHzeeyadGaWNapsln_fDv/view?usp=share_link")
 })
 
-
+let resumeDownload = document.getElementById("resumeDownload");
+resumeDownload.addEventListener("click", async (event) => {
+  window.open("https://drive.google.com/file/d/1vCoAWwfoIguQHzeeyadGaWNapsln_fDv/view?usp=share_link", "_blank");
+  window.open("https://drive.google.com/u/0/uc?id=1vCoAWwfoIguQHzeeyadGaWNapsln_fDv&export=download");
+});
 
 document.getElementById("OverStock_git").addEventListener("click",()=>{
     window.open("https://github.com/rohithanss/OverStock-Clone")
