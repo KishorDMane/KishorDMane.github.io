@@ -38,7 +38,7 @@ document.getElementById("Lifestyle_git").addEventListener("click",()=>{
 })
 
 document.getElementById("Lifestyle_deployed").addEventListener("click",()=>{
-    window.open("https://lifestylestore-com-clone.vercel.app")
+    window.open("https://sweet-gaufre-d1f424.netlify.app")
 })
 document.getElementById("jio_git").addEventListener("click",()=>{
     window.open("https://github.com/KishorDMane/stitch-5509")

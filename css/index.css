@@ -82,9 +82,9 @@ nav .menu-btn {
 
 
 @media (max-width: 950px) {
-  nav{
+  /* nav{ */
     /* justify-content: space-between; */
-  }
+  /* } */
   nav .menu-btn img {
     display: block;
     position: relative;
