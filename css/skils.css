@@ -75,20 +75,16 @@
     margin-top: 40px;
 }
 #github_kishor_mane>div>img{
-
-
     width: 45%;
 }
 
-.calendar{
-    width: 70%;
-    margin-top: 50px;
-    padding-top: 30px;
-}
 #gitcalendar{
     display: grid;
     justify-content: center;
     margin-top: 40px;
+}
+.calendar{
+    width: 80%;
 }
 
 @media (max-width:940px) {
@@ -101,23 +97,25 @@
     #github_kishor_mane{
         width: 90%;
         /* border: 2px solid red; */
-        display: block;
-    }
+      display: block;
+    } 
     
-    #github_kishor_mane>div{
+  #github_kishor_mane>div{
         width: 90%;
         /* border: 2px solid red; */
-        display: grid;
+         display: grid;
         grid-template-columns: repeat(1,1fr);
-        
+       
         /* margin: 0px; */
     }
     #github_kishor_mane>div>img{
        width: 100%;
-       margin-top: 10px;
-       /* width: 200% */
-    }
+       margin-top: 10px; 
+       
+    } 
     .calendar{
-        width: 90%;
+        width: 95%;
     }
+  
 }
+

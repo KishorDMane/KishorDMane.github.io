@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Kishor Mane</title>
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/homepage.css" />
     <link rel="stylesheet" href="./css/skils.css" />
@@ -14,10 +14,8 @@
     <link rel="stylesheet" href="./css/background.css" />
     <link rel="stylesheet" href="./css/borderAnimation.css" /> 
     <link rel="stylesheet" href="./css/contact.css" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
-    />
+  
+
   </head>
   <body>
     <nav>
@@ -133,9 +131,10 @@
     <div id="gitcalendar">
       <h1 style="margin: auto">Github Calendar</h1>
     </div>
-    <div class="calendar" >
-      <!-- github callender -->
-    </div>
+    <div class="calendar">
+      <!-- Loading stuff -->
+      Loading the data just for you.
+  </div>
     <div id="projjjjjjjjjjjjjjjj"></div>
     <div id="project">
       <h1>Projects</h1>
@@ -317,34 +316,37 @@
 <script>
   AOS.init();
 </script>
-<!-- Include the library. -->
-<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-<script>
-  GitHubCalendar(".calendar", "kishordmane");
-  // or enable responsive functionality:
-  GitHubCalendar(".calendar", "kishordmane", { responsive: true });
-  // Use a proxy
-  GitHubCalendar(".calendar", "kishordmane", {
-     proxy (kishordmane) {
-       return fetch(`https://your-proxy.com/github?user=${kishordmane}`)
-     }
-  }).then(r => r.text())
-</script>
-<!-- <style>
-  .table-column {
-    display: none;
-    height: 0px;
-  }
-  .calendar {
-    min-height: auto; 
-    margin-top: 50px
-  } 
-  #user-activity-overview{
-    display: none;
-  }
-  .position-relative>div>div:nth-child(1){
-    display: none;
-  }
-</style> -->
+
+
+
+
 <script src="./src/resume.js"></script>
+
+
+<!-- Include the library. -->
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
+
+<!-- Prepare a container for your calendar. -->
+
+
+<script>
+    // GitHubCalendar(".calendar", "kishordmane");
+
+    // or enable responsive functionality:
+    GitHubCalendar(".calendar", "kishordmane", { responsive: true });
+
+    // Use a proxy
+    // GitHubCalendar(".calendar", "kishordmane", {
+    //    proxy (username) {
+    //      return fetch(`https://your-proxy.com/github?user=${kishordmane}`)
+    //    }
+    // }).then(r => r.text())
+</script>
