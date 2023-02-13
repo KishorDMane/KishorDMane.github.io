@@ -85,6 +85,12 @@
         <div data-aos="flip-left" data-aos-delay="20">
           <img src="./img/js-removebg-preview.png" alt="" />
         </div>
+        <div data-aos="flip-left" data-aos-delay="20">
+          <img src="./img/socket_io.png" alt="" />
+        </div>
+        <div data-aos="flip-left" data-aos-delay="20">
+          <img src="./img/mysql.png" alt="" />
+        </div>
       </div>
       <h1 id="tools" style="margin-top: 50px" class="techSkillName">Tools</h1>
       <div class="techskills" id="tools" style="width: 50%; margin-top: 10px">
@@ -102,6 +108,9 @@
         </div>
         <div data-aos="flip-left" data-aos-delay="20">
           <img src="./img/Google_Chrome_icon_(February_2022).svg.png" alt="" />
+        </div>
+        <div data-aos="flip-left" data-aos-delay="20">
+          <img src="./img/Amazon_Web_Services-Logo.wine.png" alt="" />
         </div>
       </div>
     </div>
@@ -252,17 +261,15 @@
 
         <div data-aos="fade-left" data-aos-delay="400">
           <div class="project_img">
-            <img src="./img/wib101.jpg" alt="" />
+            <img src="./img/website.png" alt="" />
           </div>
           <div class="project_discription">
-            <h3>Jio-Mart Clone</h3>
+            <h3>Screen Sharing App</h3>
             <h4>
-              This Jio Mart Website Clone project is a comprehensive e-commerce
-              solution that enables users to create an online store with an
-              extensive range of features and functionalities.
+              Screen sharing app helps the user to share their screen live  and other user can see the screen on website.
             </h4>
             <p>
-              Features: home page with differnt project signup and login page.
+              Features: windows app, website, screen show site
             </p>
             <div class="techstack">
               <div data-aos="flip-left" data-aos-delay="20">
@@ -274,10 +281,16 @@
               <div data-aos="flip-left" data-aos-delay="20">
                 <img src="./img/js-removebg-preview.png" alt="" />
               </div>
+              <div data-aos="flip-left" data-aos-delay="20">
+                <img src="./img/socket_io.png" alt="" />
+              </div>
+              <div data-aos="flip-left" data-aos-delay="20">
+                <img src="./img/electron.png" alt="" />
+              </div>
             </div>
             <div class="buttons">
-              <button id="jio_git">Github</button>
-              <button id="jio_deployse">Deployed</button>
+              <button id="snapdesk_git">Github</button>
+              <button id="snapdesk_deployse">Deployed</button>
             </div>
           </div>
         </div>
@@ -308,17 +321,17 @@
 <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
 <script>
-  // GitHubCalendar(".calendar", "kishordmane");
+  GitHubCalendar(".calendar", "kishordmane");
   // or enable responsive functionality:
   GitHubCalendar(".calendar", "kishordmane", { responsive: true });
   // Use a proxy
-  // GitHubCalendar(".calendar", "kishordmane", {
-  //    proxy (kishordmane) {
-  //      return fetch(`https://your-proxy.com/github?user=${kishordmane}`)
-  //    }
-  // }).then(r => r.text())
+  GitHubCalendar(".calendar", "kishordmane", {
+     proxy (kishordmane) {
+       return fetch(`https://your-proxy.com/github?user=${kishordmane}`)
+     }
+  }).then(r => r.text())
 </script>
-<style>
+<!-- <style>
   .table-column {
     display: none;
     height: 0px;
@@ -333,5 +346,5 @@
   .position-relative>div>div:nth-child(1){
     display: none;
   }
-</style>
+</style> -->
 <script src="./src/resume.js"></script>

@@ -46,6 +46,20 @@ document.getElementById("jio_git").addEventListener("click",()=>{
 document.getElementById("jio_deployse").addEventListener("click",()=>{
     window.open("https://strong-alfajores-c5eb1f.netlify.app")
 })
+
+document.getElementById("snapdesk_git").addEventListener("click",()=>{
+    window.open("https://github.com/KishorDMane/naive-hand-1722")
+})
+document.getElementById("snapdesk_deployse").addEventListener("click",()=>{
+    window.open("https://loquacious-travesseiro-3cf53d.netlify.app")
+})
+
+
+
+
+
+
+
 document.getElementById("githubprofile").addEventListener("click",()=>{
     window.open("https://github.com/KishorDMane")
 })
