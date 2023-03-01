@@ -1,315 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kishor Mane</title>
-    <link rel="stylesheet" href="./css/index.css" />
-    <link rel="stylesheet" href="./css/homepage.css" />
-    <link rel="stylesheet" href="./css/skils.css" />
-    <script src="./src/nav.js"></script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./css/project.css" />
-    <link rel="stylesheet" href="./css/background.css" />
-    <link rel="stylesheet" href="./css/borderAnimation.css" /> 
-    <link rel="stylesheet" href="./css/contact.css" />
-  
 
-  </head>
-  <body>
-    <nav>
-      <div class="logo"><img src="./img/Pink Typography .png" alt="" /></div>
-      <input type="checkbox" id="click" />
-      <label for="click" class="menu-btn">
-        <img src="./img/menu.png" alt="" />
-      </label>
-      <ul>
-        <li><a class="active" href="#homepage">Home</a></li>
-        <!-- <li><a href="#">About Me</a></li> -->
-        <li><a href="#button">Skills</a></li>
-        <li><a href="#projjjjjjjjjjjjjjjj">Project</a></li>
-        <li><a href="#contact">Contact Me</a></li>
-        <li>
-          <a id="resumeDownload"
-            >Resume</a
-          >
-        </li>
-      </ul>
-    </nav>
-    <div id="homepage" class="bg">
-      <div id="image">
-        <img data-aos="zoom-in" src="./img/Untitled design (1).png" alt="" />
-      </div>
-      <div id="name">
-        <h1 data-aos="zoom-in-up">Hi,</h1>
-        <h1>I'm Kishor Mane</h1>
-        <h1>Node.JS Backend Developer</h1>
-        <p>
-          A highly motivated Backend Developer with extensive knowledge of
-          Node.js, MongoDB, and Express.js. Experienced in developing, testing,
-          and deploying backend applications. Highly organized and
-          detail-oriented, with the ability to quickly understand complex
-          requirements and work in a fast-paced environment. Dedicated to
-          providing excellent customer service and meeting project deadlines.
-        </p>
-        <button id="button" id="Resume_btn"
-        class="glow-on-hover">Resume</button>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kishor Mane</title>
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="./css/homepage.css" />
+  <link rel="stylesheet" href="./css/skils.css" />
+  <script src="./src/nav.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/project.css" />
+  <link rel="stylesheet" href="./css/background.css" />
+  <link rel="stylesheet" href="./css/borderAnimation.css" />
+  <link rel="stylesheet" href="./css/contact.css" />
+  <link rel="stylesheet" href="./css/newskils.css">
+  <link rel="stylesheet" href="./css/newtools.css">
+
+
+</head>
+
+<body>
+  <nav>
+    <div class="logo"><img src="./img/Pink Typography .png" alt="" /></div>
+    <input type="checkbox" id="click" />
+    <label for="click" class="menu-btn">
+      <img src="./img/menu.png" alt="" />
+    </label>
+    <ul>
+      <li  for="click" id="Hidebtn" class="Checkboxbtn"><a class="active" href="#homepage">Home</a></li>
+      <!-- <li><a href="#homepage">About Me</a></li> -->
+      <li class="Checkboxbtn"><a href="#button">Skills</a></li>
+      <li class="Checkboxbtn"><a href="#projjjjjjjjjjjjjjjj">Project</a></li>
+      <li class="Checkboxbtn"><a href="#contact">Contact Me</a></li>
+      <li>
+        <a id="resumeDownload">Resume</a>
+      </li>
+    </ul>
+  </nav>
+  <div id="homepage" class="bg">
+    <div id="image">
+      <img data-aos="zoom-in" src="./img/Untitled design (1).png" alt="" />
     </div>
-    <div id="skilllllllllllll"></div>
-    <div id="skils">
-      <h1 style="margin-top: 50px" class="techSkillName">Techinal Skills</h1>
-      <div
-        class="techskills"
-        id="Techinal"
-        style="width: 50%; margin-top: 10px"
-      >
-        <div data-aos="flip-left" data-aos-delay="20">
-          <img src="./img/nodejs-1-logo.png" alt="" />
-        </div>
-        <div data-aos="flip-left" data-aos-delay="20">
-          <img src="./img/mongodb-.svg" alt="" />
-        </div>
-        <div data-aos="flip-left" data-aos-delay="20">
-          <img src="./img/express.png" alt="" />
-        </div>
-        <div data-aos="flip-left" data-aos-delay="20">
-          <img src="./img/Html.png" alt="" />
-        </div>
-        <div data-aos="flip-left" data-aos-delay="20">
-          <img src="./img/Css.png" alt="" />
-        </div>
-        <div data-aos="flip-left" data-aos-delay="20">
-          <img src="./img/js-removebg-preview.png" alt="" />
-        </div>
-        <div data-aos="flip-left" data-aos-delay="20">
-          <img src="./img/socket_io.png" alt="" />
-        </div>
-        <div data-aos="flip-left" data-aos-delay="20">
-          <img src="./img/mysql.png" alt="" />
-        </div>
-      </div>
-      <h1 id="tools" style="margin-top: 50px" class="techSkillName">Tools</h1>
-      <div class="techskills" id="tools" style="width: 50%; margin-top: 10px">
-        <div data-aos="flip-left" data-aos-delay="20">
-          <img src="./img/github.png" alt="" />
-        </div>
-        <div data-aos="flip-left" data-aos-delay="20">
-          <img src="./img/git.png" alt="" />
-        </div>
-        <div data-aos="flip-left" data-aos-delay="20">
-          <img src="./img/vscode.9bc6e588b5f2b867a8a4.png" alt="" />
-        </div>
-        <div data-aos="flip-left" data-aos-delay="20">
-          <img src="./img/npm-logo.png" alt="" />
-        </div>
-        <div data-aos="flip-left" data-aos-delay="20">
-          <img src="./img/Google_Chrome_icon_(February_2022).svg.png" alt="" />
-        </div>
-        <div data-aos="flip-left" data-aos-delay="20">
-          <img src="./img/Amazon_Web_Services-Logo.wine.png" alt="" />
-        </div>
-      </div>
-    </div>
-    <div id="github_kishor_mane">
-      <h1>My Statistics</h1>
-      <div id="git_img">
-        <img
-          data-aos="fade-right"
-          src="https://camo.githubusercontent.com/7bd46e328ec0498b9fad26c208e80d60ab299f227b082fa665b7a62167fc694b/68747470733a2f2f6769746875622d726561646d652d73747265616b2d73746174732e6865726f6b756170702e636f6d2f3f757365723d6b6973686f72646d616e6526636f756e745f707269766174653d747275652673686f775f69636f6e733d7472756526637573746f6d5f7469746c653d476974687562267468656d653d616c676f6c69612662675f636f6c6f723d302c3030303030302c313330463430266c61796f75743d636f6d7061637426626f726465725f7261646975733d38"
-          alt=""
-        />
-        <img
-          data-aos="fade-left"
-          src="https://camo.githubusercontent.com/2163d4c99dacb7b989425960d071aff28a38c30848d9a7ea3d925a4ad248cf37/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d6b6973686f72646d616e6526636f756e745f707269766174653d74727565267468656d653d616c676f6c69612662675f636f6c6f723d302c3030303030302c313330463430266c61796f75743d636f6d7061637426626f726465725f7261646975733d38266c616e67735f636f756e743d323026686964653d6861636b2c73776966742c6b6f746c696e2c6f626a6563746976652d63"
-          alt=""
-        />
+    <div id="name">
+      <h1 data-aos="zoom-in-up">Hi,</h1>
+      <h1>I'm Kishor Mane</h1>
+      <h1>Node.JS Backend Developer</h1>
+      <p>
         
-      </div>
+        A highly motivated Backend Developer with extensive Node.js, MongoDB, and Express.js knowledge. Experienced in
+        developing, testing, and deploying backend applications. Highly organized and detail-oriented, able to quickly
+        understand complex requirements and work in a fast-paced environment. We are dedicated to providing excellent
+        customer service and meeting project deadlines.
+      </p>
+      <button id="button" id="Resume_btn" class="glow-on-hover">Resume</button>
     </div>
-    <div id="gitcalendar">
-      <h1 style="margin: auto">Github Calendar</h1>
-    </div>
-    <div class="calendar">
-      <!-- Loading stuff -->
-      Loading the data just for you.
   </div>
-    <div id="projjjjjjjjjjjjjjjj"></div>
-    <div id="project">
-      <h1>Projects</h1>
-      <!-- 1st -->
-      <div class="project_div">
-        <div data-aos="fade-right" data-aos-delay="400">
-          <div class="project_img">
-            <img src="./img/overstock.png" alt="" />
-          </div>
-          <div class="project_discription">
-            <h3>OverStock Clone</h3>
-            <h4>
-              OverStock is an e-commerce Website primarily sales furniture as
-              well home decors.
-            </h4>
-            <p>
-              Features: User's Wishlist, Cart, Payment, and Order pages as well
-              as Seller's Order management, Customer details, Edit and Add new
-              products.
-            </p>
-            <div class="techstack">
-              <div data-aos="flip-left" data-aos-delay="20">
-                <img src="./img/nodejs-1-logo.png" alt="" />
-              </div>
-              <div data-aos="flip-left" data-aos-delay="20">
-                <img src="./img/mongodb-.svg" alt="" />
-              </div>
-              <div data-aos="flip-left" data-aos-delay="20">
-                <img src="./img/express.png" alt="" />
-              </div>
-              <div data-aos="flip-left" data-aos-delay="20">
-                <img src="./img/Html.png" alt="" />
-              </div>
-              <div data-aos="flip-left" data-aos-delay="20">
-                <img src="./img/Css.png" alt="" />
-              </div>
-              <div data-aos="flip-left" data-aos-delay="20">
-                <img src="./img/js-removebg-preview.png" alt="" />
-              </div>
-            </div>
-            <div class="buttons">
-              <button id="OverStock_git">Github</button>
-              <button id="OverStock_deployed">Deployed</button>
-            </div>
-          </div>
-        </div>
-        <!-- 2nd -->
-        <div data-aos="fade-right" data-aos-delay="400">
-          <div class="project_img">
-            <img src="./img/js201.jpg" alt="" />
-          </div>
-          <div class="project_discription">
-            <h3>Lifestyle Clone</h3>
-            <h4>
-              Lifestyle.com is a website that will allow users to explore and
-              compare lifestyle products and services from different vendors.
-            </h4>
-            <p>
-              Features: User's, Cart, Payment, and Order pages as well as
-              Seller's Edit and Add new products.
-            </p>
-            <div class="techstack">
-              <div data-aos="flip-left" data-aos-delay="20">
-                <img src="./img/nodejs-1-logo.png" alt="" />
-              </div>
-              <div data-aos="flip-left" data-aos-delay="20">
-                <img src="./img/mongodb-.svg" alt="" />
-              </div>
-              <div data-aos="flip-left" data-aos-delay="20">
-                <img src="./img/express.png" alt="" />
-              </div>
-              <div data-aos="flip-left" data-aos-delay="20">
-                <img src="./img/Html.png" alt="" />
-              </div>
-              <div data-aos="flip-left" data-aos-delay="20">
-                <img src="./img/Css.png" alt="" />
-              </div>
-              <div data-aos="flip-left" data-aos-delay="20">
-                <img src="./img/js-removebg-preview.png" alt="" />
-              </div>
-            </div>
-            <div class="buttons">
-              <button id="Lifestyle_git">Github</button>
-              <button id="Lifestyle_deployed">Deployed</button>
-            </div>
-          </div>
-        </div>
-        <!-- 3nd -->
-        <div data-aos="fade-left" data-aos-delay="400">
-          <div class="project_img">
-            <img src="./img/wib101.jpg" alt="" />
-          </div>
-          <div class="project_discription">
-            <h3>Jio-Mart Clone</h3>
-            <h4>
-              This Jio Mart Website Clone project is a comprehensive e-commerce
-              solution that enables users to create an online store with an
-              extensive range of features and functionalities.
-            </h4>
-            <p>
-              Features: home page with differnt project signup and login page.
-            </p>
-            <div class="techstack">
-              <div data-aos="flip-left" data-aos-delay="20">
-                <img src="./img/Html.png" alt="" />
-              </div>
-              <div data-aos="flip-left" data-aos-delay="20">
-                <img src="./img/Css.png" alt="" />
-              </div>
-              <div data-aos="flip-left" data-aos-delay="20">
-                <img src="./img/js-removebg-preview.png" alt="" />
-              </div>
-            </div>
-            <div class="buttons">
-              <button id="jio_git">Github</button>
-              <button id="jio_deployse">Deployed</button>
-            </div>
-          </div>
-        </div>
-
-        <!-- 4th -->
+  <div id="skilllllllllllll"></div>
+  <h1 style="margin-top: 50px" class="techSkillName">Techinal Skills</h1>
+  <div id="new-skils">
+    <div data-aos="flip-left" data-aos-delay="20">
+      <img src="./img/nodejs-1-logo.png" alt="">
+      <p>Node</p>
+    </div>
+    <div data-aos="flip-left" data-aos-delay="20">
+      <img src="./img/mongodb-.svg" alt="" />
+      <p>MongoDB</p>
+    </div>
 
 
-        <div data-aos="fade-left" data-aos-delay="400">
-          <div class="project_img">
-            <img src="./img/website.png" alt="" />
+
+    <div data-aos="flip-left" data-aos-delay="20">
+      <img src="./img/express.png" alt="" />
+      <p>Express</p>
+    </div>
+    <div data-aos="flip-left" data-aos-delay="20">
+      <img src="./img/Html.png" alt="" />
+      <p>HTML</p>
+    </div>
+    <div data-aos="flip-left" data-aos-delay="20">
+      <img src="./img/Css.png" alt="" />
+      <p>CSS</p>
+    </div>
+    <div data-aos="flip-left" data-aos-delay="20">
+      <img src="./img/js-removebg-preview.png" alt="" />
+      <p>JavaScript</p>
+    </div>
+    <div data-aos="flip-left" data-aos-delay="20">
+      <img src="./img/socket_io.png" alt="" />
+      <p>Socket.io</p>
+    </div>
+    <div data-aos="flip-left" data-aos-delay="20">
+      <img src="./img/mysql.png" alt="" />
+      <p>MySQL</p>
+    </div>
+    <div data-aos="flip-left" data-aos-delay="20">
+      <img src="https://rohithanss.github.io/skills/redis.png" alt="" />
+      <p>Redis</p>
+    </div>
+    <div data-aos="flip-left" data-aos-delay="20">
+      <img src="./img/Amazon_Web_Services-Logo.wine.png" alt="" />
+      <p>AWS</p>
+    </div>    
+  </div>
+  
+  <h1 id="tools" style="margin-top: 50px" class="techSkillName">Tools</h1>
+
+<div id="new-tools">
+
+  <div data-aos="flip-left" data-aos-delay="20">
+    <img src="./img/github.png" alt="" />
+    <p>git hub</p>
+  </div>
+  <div data-aos="flip-left" data-aos-delay="20">
+    <img src="./img/git.png" alt="" />
+    <p>git bash</p>
+  </div>
+  <div data-aos="flip-left" data-aos-delay="20">
+    <img src="./img/vscode.9bc6e588b5f2b867a8a4.png" alt="" />
+    <p>VS Code</p>
+  </div>
+  <div data-aos="flip-left" data-aos-delay="20">
+    <img src="./img/npm-logo.png" alt="" />
+    <p>NPM</p>
+  </div>
+  <div data-aos="flip-left" data-aos-delay="20">
+    <img src="./img/Google_Chrome_icon_(February_2022).svg.png" alt="" />
+    <p>Chrome</p>
+  </div>
+ 
+
+
+</div>
+
+
+
+
+
+
+
+
+  
+  </div>
+  <div id="github_kishor_mane">
+    <h1>My Statistics</h1>
+    <div id="git_img">
+      <img data-aos="fade-right"
+        src="https://camo.githubusercontent.com/7bd46e328ec0498b9fad26c208e80d60ab299f227b082fa665b7a62167fc694b/68747470733a2f2f6769746875622d726561646d652d73747265616b2d73746174732e6865726f6b756170702e636f6d2f3f757365723d6b6973686f72646d616e6526636f756e745f707269766174653d747275652673686f775f69636f6e733d7472756526637573746f6d5f7469746c653d476974687562267468656d653d616c676f6c69612662675f636f6c6f723d302c3030303030302c313330463430266c61796f75743d636f6d7061637426626f726465725f7261646975733d38"
+        alt="" />
+      <img data-aos="fade-left"
+        src="https://camo.githubusercontent.com/2163d4c99dacb7b989425960d071aff28a38c30848d9a7ea3d925a4ad248cf37/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d6b6973686f72646d616e6526636f756e745f707269766174653d74727565267468656d653d616c676f6c69612662675f636f6c6f723d302c3030303030302c313330463430266c61796f75743d636f6d7061637426626f726465725f7261646975733d38266c616e67735f636f756e743d323026686964653d6861636b2c73776966742c6b6f746c696e2c6f626a6563746976652d63"
+        alt="" />
+
+    </div>
+  </div>
+  <div id="gitcalendar">
+    <h1 style="margin: auto">Github Calendar</h1>
+  </div>
+  <div class="calendar">
+    <!-- Loading stuff -->
+    Loading the data just for you.
+  </div>
+  <div id="projjjjjjjjjjjjjjjj"></div>
+  <div id="project">
+    <h1>Projects</h1>
+    <!-- 1st -->
+    <div class="project_div">
+      <div data-aos="fade-right" data-aos-delay="400">
+        <div class="project_img">
+          <img src="./img/overstock.png" alt="" />
+        </div>
+        <div class="project_discription">
+          <h3>OverStock Clone</h3>
+          <h4>
+            Overstock is an e-commerce Website that primarily sells furniture as well home decor.
+          </h4>
+          <p>
+            Features: User's Wishlist, Cart, Payment, and Order pages as well as Seller's Order management, Customer
+            details, Edit and Add new products.
+          </p>
+          <div class="techstack">
+            
+            <p>html</p>
+              <p>css</p>
+              <p>JavaScript</p>
+             
+              <p>Express</p>
+              <p>Node</p>
+              <p>MongoDB</p>
+            
           </div>
-          <div class="project_discription">
-            <h3>Screen Sharing App</h3>
-            <h4>
-              Screen sharing app helps the user to share their screen live  and other user can see the screen on website.
-            </h4>
-            <p>
-              Features: windows app, website, screen show site
-            </p>
-            <div class="techstack">
-              <div data-aos="flip-left" data-aos-delay="20">
-                <img src="./img/Html.png" alt="" />
-              </div>
-              <div data-aos="flip-left" data-aos-delay="20">
-                <img src="./img/Css.png" alt="" />
-              </div>
-              <div data-aos="flip-left" data-aos-delay="20">
-                <img src="./img/js-removebg-preview.png" alt="" />
-              </div>
-              <div data-aos="flip-left" data-aos-delay="20">
-                <img src="./img/socket_io.png" alt="" />
-              </div>
-              <div data-aos="flip-left" data-aos-delay="20">
-                <img src="./img/electron.png" alt="" />
-              </div>
-            </div>
-            <div class="buttons">
-              <button id="snapdesk_git">Github</button>
-              <button id="snapdesk_deployse">Deployed</button>
-            </div>
+          <div class="buttons">
+            <button id="OverStock_git">Github</button>
+            <button id="OverStock_deployed">Deployed</button>
+          </div>
+        </div>
+      </div>
+      <!-- 2nd -->
+      <div data-aos="fade-left" data-aos-delay="400">
+        <div class="project_img">
+          <img src="./img/js201.jpg" alt="" />
+        </div>
+        <div class="project_discription">
+          <h3>Lifestyle Clone</h3>
+          <h4>Lifestyle.com is a website that will allow users to explore and compare lifestyle products and services
+            from different vendors.
+          </h4>
+          <p>
+            Features: User's, Cart, Payment, and Order pages as well as
+            Seller's Edit and Add new products.
+          </p>
+          <div class="techstack">
+            <p>html</p>
+              <p>css</p>
+              <p>JavaScript</p>
+             
+              
+              
+            
+          </div>
+          <div class="buttons">
+            <button id="Lifestyle_git">Github</button>
+            <button id="Lifestyle_deployed">Deployed</button>
+          </div>
+        </div>
+      </div>
+      <!-- 3nd -->
+      <div data-aos="fade-right" data-aos-delay="400">
+        <div class="project_img">
+          <img src="./img/wib101.jpg" alt="" />
+        </div>
+        <div class="project_discription">
+          <h3>Jio-Mart Clone</h3>
+          <h4>
+            This Jio Mart Website Clone project is a comprehensive e-commerce solution that enables users to create an
+            online store with an extensive range of features and functionalities.
+          </h4>
+          <p>
+            Features: home page with differnt project signup and login page.
+          </p>
+          <div class="techstack">
+            <p>html</p>
+            <p>css</p>
+            <p>JavaScript</p>
+            
+          </div>
+          <div class="buttons">
+            <button id="jio_git">Github</button>
+            <button id="jio_deployse">Deployed</button>
           </div>
         </div>
       </div>
 
+      <!-- 4th -->
 
+
+      <div data-aos="fade-left" data-aos-delay="400">
+        <div class="project_img">
+          <img src="./img/website.png" alt="" />
+        </div>
+        <div class="project_discription">
+          <h3>Screen Sharing App</h3>
+          <h4>
+            Screen-sharing app helps the user to share their screen live and another user can see the screen on the
+            website.
+          </h4>
+          <p>
+            Features: windows app, website, screen show site
+          </p>
+          <div class="techstack">
+              <p>html</p>
+              <p>css</p>
+              <p>JavaScript</p>
+              <p>Websocket</p>
+              <p>Electron.js</p>
+            
+          </div>
+          <div class="buttons">
+            <button id="snapdesk_git">Github</button>
+            <button id="snapdesk_deployse">Deployed</button>
+          </div>
+        </div>
+      </div>
     </div>
-    <div id="contact">
+
+
+  </div>
+  <div id="contact">
+    <div>
+      <h1>Contact</h1>
+      <h3>Contact Number - 9696068484</h3>
+      <h3>Email Address- manekishor212@gmail.com</h3>
+      <h3>Address-Pune Maharashtra</h3>
       <div>
-        <h1>Contact</h1>
-        <h3>Contact Number - 9696068484</h3>
-        <h3>Email Address- manekishor212@gmail.com</h3>
-        <h3>Address-Pune Maharashtra</h3>
-        <div>
-          <img id="linkedinprofile" src="./img/linkedin.png" alt="" />
-          <img id="githubprofile" src="./img/github.png" alt="" />
-        </div>
+        <img id="linkedinprofile" src="./img/linkedin.png" alt="" />
+        <img id="githubprofile" src="./img/github.png" alt="" />
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -324,24 +315,20 @@
 
 
 <!-- Include the library. -->
-<script
-  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
 </script>
 
 <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-<link
-  rel="stylesheet"
-  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
-/>
+<link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
 
 <!-- Prepare a container for your calendar. -->
 
 
 <script>
-    // GitHubCalendar(".calendar", "kishordmane");
+  // GitHubCalendar(".calendar", "kishordmane");
 
-    // or enable responsive functionality:
-    GitHubCalendar(".calendar", "kishordmane", { responsive: true });
+  // or enable responsive functionality:
+  GitHubCalendar(".calendar", "kishordmane", { responsive: true });
 
     // Use a proxy
     // GitHubCalendar(".calendar", "kishordmane", {

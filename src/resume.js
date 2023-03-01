@@ -41,7 +41,7 @@ document.getElementById("Lifestyle_deployed").addEventListener("click",()=>{
     window.open("https://sweet-gaufre-d1f424.netlify.app")
 })
 document.getElementById("jio_git").addEventListener("click",()=>{
-    window.open("https://github.com/KishorDMane/stitch-5509")
+    window.open("https://github.com/KishorDMane/jio-mart-clone")
 })
 document.getElementById("jio_deployse").addEventListener("click",()=>{
     window.open("https://strong-alfajores-c5eb1f.netlify.app")
@@ -58,11 +58,21 @@ document.getElementById("snapdesk_deployse").addEventListener("click",()=>{
 
 
 
-
-
 document.getElementById("githubprofile").addEventListener("click",()=>{
     window.open("https://github.com/KishorDMane")
 })
 document.getElementById("linkedinprofile").addEventListener("click",()=>{
     window.open("https://www.linkedin.com/in/kishor-mane/")
 })
+
+
+
+
+const links = document.querySelectorAll('nav ul li a');
+
+links.forEach(link => {
+  link.addEventListener('click', () => {
+    const checkbox = document.getElementById('click');
+    checkbox.checked = false;
+  });
+});

@@ -43,9 +43,8 @@
 .techskills>div {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-
+    justify-content:space-between;
+   
 }
 
 #tools {
@@ -74,8 +73,11 @@
     justify-content: center;
     margin-top: 40px;
 }
-#github_kishor_mane>div>img{
-    width: 45%;
+#github_kishor_mane>div img{
+    width: 50%;
+}
+#github_kishor_mane>div img:nth-child(2){
+    width: 43%;
 }
 
 #gitcalendar{
@@ -108,11 +110,16 @@
        
         /* margin: 0px; */
     }
-    #github_kishor_mane>div>img{
+    #github_kishor_mane>div img{
        width: 100%;
        margin-top: 10px; 
        
     } 
+    #github_kishor_mane>div img:nth-child(2){
+        width: 100%;
+        margin-top: 10px; 
+        
+     } 
     .calendar{
         width: 95%;
     }

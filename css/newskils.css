@@ -1,0 +1,72 @@
+#new-skils{
+/* border: 1px solid red ; */
+height: 300px ;
+width: 50%;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(5,1fr);
+gap: 1%;
+
+}
+#new-skils>div{
+    width: 100px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    height: 120px;
+   display: grid;
+    overflow: hidden;
+    justify-content: center;
+    margin: auto;
+
+}
+#new-skils>div>img{
+width: 100%;
+margin: auto;
+height:80px ;
+
+}
+#new-skils>div>p{
+margin: auto;
+}
+.techSkillName{
+    margin: auto;
+    text-align: center;
+}
+
+
+@media (max-width: 1200px){
+    #new-skils{
+        grid-template-columns: repeat(4,1fr);
+        height:400px ;
+    }
+}
+@media (max-width: 950px){
+    #new-skils{
+        grid-template-columns: repeat(4,1fr);
+        height:550px ;
+        width: 70%;
+    }
+}
+@media (max-width: 700px){
+    #new-skils{
+        grid-template-columns: repeat(3,1fr);
+        height:550px ;
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px){
+    #new-skils{
+        grid-template-columns: repeat(3,1fr);
+        height:550px ;
+        width: 90%;
+    }
+}
+@media (max-width: 500px){
+    #new-skils{
+        grid-template-columns: repeat(2,1fr);
+        height:750px ;
+        width: 90%;
+       padding: auto;
+    }
+}
+

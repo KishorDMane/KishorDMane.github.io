@@ -91,6 +91,61 @@
         height: auto
     }
     #homepage>div{
+        width: 80%;
+        padding-top: 0px;
+        margin: auto;
+    }
+    #homepage>div:nth-child(1) {
+        /* border: 1px solid green; */
+        width: 100%;
+        margin-top: 10px;
+        /* display: flex; */
+        /* background-image: url("../img/Blue\ Aqua\ Minimalist\ Sea\ Soothes\ the\ Soul\ Quote\ Instagram\ Post.png"); */
+       
+    }
+    
+#homepage>div:nth-child(1)>img{
+    width: 50%;
+}
+    #homepage>div:nth-child(2) {
+        /* border: 1px solid green; */
+        width: 70%;
+        /* display: flex; */
+        /* background-image: url("../img/Blue\ Aqua\ Minimalist\ Sea\ Soothes\ the\ Soul\ Quote\ Instagram\ Post.png"); */
+       
+    }
+    #name>h1:nth-child(1) {
+        padding-top: 0px;
+    }
+    
+    #name>h1:nth-child(1),
+    #name>h1:nth-child(2) {
+        font-size: 20px;
+        margin: 0px;
+        margin-left: 10px;
+    }
+    
+    #name>h1:nth-child(3) {
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    #name>p {
+        margin: 10px;
+        font-size:medium;
+        color: white;
+        margin-right: 5px;
+    }
+}
+
+@media (max-width:650px){
+    #homepage{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        padding-top: 70px;
+        height: auto
+    }
+    #homepage>div{
         width: 100%;
         padding-top: 0px;
         margin: auto;
@@ -135,8 +190,4 @@
         color: white;
         margin-right: 5px;
     }
-}
-
-@media (max-width:650px){
-
 }

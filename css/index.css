@@ -1,9 +1,11 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: "Poppins", sans-serif;
- 
+  font-family: Arial, sans-serif;
   overflow-x: hidden;
+}
+body{
+  font-family: Arial, sans-serif;
 }
 nav {
   height: 80px;
@@ -81,10 +83,12 @@ nav .menu-btn {
 }
 
 
+
 @media (max-width: 950px) {
   /* nav{ */
     /* justify-content: space-between; */
   /* } */
+
   nav .menu-btn img {
     display: block;
     position: relative;
@@ -132,4 +136,5 @@ nav .logo img{
     cursor: pointer;
     display: block;
   }
+  
 }
