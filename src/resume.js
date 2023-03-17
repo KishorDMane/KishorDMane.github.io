@@ -51,7 +51,7 @@ document.getElementById("snapdesk_git").addEventListener("click",()=>{
     window.open("https://github.com/KishorDMane/naive-hand-1722")
 })
 document.getElementById("snapdesk_deployse").addEventListener("click",()=>{
-    window.open("https://loquacious-travesseiro-3cf53d.netlify.app")
+    window.open("https://scintillating-selkie-f0b500.netlify.app")
 })
 
 
