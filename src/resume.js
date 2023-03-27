@@ -54,6 +54,12 @@ document.getElementById("snapdesk_deployse").addEventListener("click",()=>{
     window.open("https://scintillating-selkie-f0b500.netlify.app")
 })
 
+document.getElementById("HMS_git").addEventListener("click",()=>{
+    window.open("https://github.com/AFORANURAG/uneven-taste-145")
+})
+document.getElementById("HMS_deployed").addEventListener("click",()=>{
+    window.open("https://hmsfrontend-eight.vercel.app/")
+})
 
 
 
