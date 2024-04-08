@@ -1,12 +1,12 @@
 let btn = document.getElementById("button");
 btn.addEventListener("click", async () => {  
     let downloadLink = document.createElement("a");
-    downloadLink.href = "https://drive.google.com/u/0/uc?id=1vCoAWwfoIguQHzeeyadGaWNapsln_fDv&export=download";
+    downloadLink.href = "https://drive.usercontent.google.com/u/0/uc?id=1H_JGLi0cdjqEJMMIawHgZu1XLtKhGJ6Y&export=download";
     downloadLink.target = "_blank";
     downloadLink.click();
 
     let viewLink = document.createElement("a");
-    viewLink.href = "https://drive.google.com/file/d/1vCoAWwfoIguQHzeeyadGaWNapsln_fDv/view?usp=share_link";
+    viewLink.href = "https://drive.google.com/file/d/1H_JGLi0cdjqEJMMIawHgZu1XLtKhGJ6Y/view?usp=sharing";
     viewLink.target = "_blank";
     viewLink.click();
 });
@@ -17,12 +17,12 @@ btn.addEventListener("click", async () => {
 let resumeDownload = document.getElementById("resumeDownload");
 resumeDownload.addEventListener("click", async () => {  
     let downloadLink = document.createElement("a");
-    downloadLink.href = "https://drive.google.com/u/0/uc?id=1vCoAWwfoIguQHzeeyadGaWNapsln_fDv&export=download";
+    downloadLink.href = "https://drive.usercontent.google.com/u/0/uc?id=1H_JGLi0cdjqEJMMIawHgZu1XLtKhGJ6Y&export=download";
     downloadLink.target = "_blank";
     downloadLink.click();
 
     let viewLink = document.createElement("a");
-    viewLink.href = "https://drive.google.com/file/d/1vCoAWwfoIguQHzeeyadGaWNapsln_fDv/view?usp=share_link";
+    viewLink.href = "https://drive.google.com/file/d/1H_JGLi0cdjqEJMMIawHgZu1XLtKhGJ6Y/view?usp=sharing";
     viewLink.target = "_blank";
     viewLink.click();
 });
