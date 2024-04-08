@@ -191,3 +191,75 @@
         margin-right: 5px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.experience>h1 {
+    width: 20%;
+    margin: auto;
+    padding-bottom: 20px;
+    }
+    
+    
+    
+    
+    
+    
+    .job-description {
+      display: flex;
+      padding: 20px;
+      border-radius: 8px;
+    
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      margin: 20px auto;
+      max-width: 800px;
+    }
+    
+    .image-section {
+      flex: 0 0 auto;
+    }
+    
+    .logo {
+      max-width: 150px;
+      border-radius: 8px;
+    
+    }
+    
+    .content-section {
+      flex-grow: 1;
+      padding-left: 20px;
+    }
+    
+    .title {
+      margin-top: 0;
+    }
+    
+    .location, .position, .details {
+      margin: 8px 0;
+    }
+    
+    .details {
+      font-size: 14px;
+      line-height: 1.6;
+    }
