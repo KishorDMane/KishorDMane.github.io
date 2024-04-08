@@ -4,9 +4,11 @@
   font-family: Arial, sans-serif;
   overflow-x: hidden;
 }
-body{
+
+body {
   font-family: Arial, sans-serif;
 }
+
 nav {
   height: 80px;
   width: 100%;
@@ -18,20 +20,23 @@ nav {
   position: fixed;
   z-index: 10;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
-    rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    
-    /* overflow:hidden; */
+  /*   rgba(0, 0, 0, 0.22) 0px 10px 10px;
+ */
+  /* overflow:hidden; */
 }
-nav .logo > img {
+
+nav .logo>img {
   width: 15%;
 }
+
 nav ul {
   display: flex;
   list-style: none;
-  
-  
+
+
 }
-.logo{
+
+.logo {
   margin-left: 51px;
 }
 
@@ -45,9 +50,10 @@ nav ul li a {
   padding: 8px 10px;
   border-radius: 5px;
   transition: all 0.3s ease;
-  overflow:hidden;
+  overflow: hidden;
 
 }
+
 nav ul li {
   margin: 0px 5px;
   padding: 10px;
@@ -59,6 +65,7 @@ nav ul li a.active {
   color: rgb(9, 8, 8);
   background: white;
 }
+
 nav .menu-btn img {
   color: white;
   font-size: 22px;
@@ -66,8 +73,9 @@ nav .menu-btn img {
   display: none;
   width: 40%;
   /* margin-left: auto; */
-  overflow:hidden;
+  overflow: hidden;
 }
+
 nav .menu-btn {
   /* border: 1px solid red; */
   /* margin: auto; */
@@ -75,7 +83,7 @@ nav .menu-btn {
   /* width: 20%; */
   display: flex;
   align-items: center;
-  
+
 }
 
 #click {
@@ -86,22 +94,23 @@ nav .menu-btn {
 
 @media (max-width: 950px) {
   /* nav{ */
-    /* justify-content: space-between; */
+  /* justify-content: space-between; */
   /* } */
 
   nav .menu-btn img {
     display: block;
     position: relative;
   }
-  nav .menu-btn{
+
+  nav .menu-btn {
     width: 20%;
     justify-content: center;
   }
 
-nav .logo img{
-  margin: 0px ;
-  padding: 0px;
-}
+  nav .logo img {
+    margin: 0px;
+    padding: 0px;
+  }
 
   nav ul {
     position: fixed;
@@ -113,28 +122,94 @@ nav .logo img{
     display: block;
     text-align: center;
     transition: all 0.5s ease;
-    overflow:hidden;
+    overflow: hidden;
   }
-  #click:checked ~ ul {
+
+  #click:checked~ul {
     left: 0%;
   }
+
   nav ul li {
     margin: 40px 0px;
   }
+
   nav ul li a {
     font-size: 20px;
     display: block;
   }
+
   nav ul li a:hover,
   nav ul li a.active {
     color: cyan;
     background: none;
   }
+
   nav .menu-btn i {
     color: white;
     font-size: 22px;
     cursor: pointer;
     display: block;
   }
-  
+
 }
+
+.experience {
+  width: 100%;
+  height: 300px;
+
+margin-top: 7%;
+
+}
+
+.experience>h1 {
+width: 20%;
+margin: auto;
+padding-bottom: 20px;
+}
+
+
+
+
+
+
+.job-description {
+  display: flex;
+/*   background-color: #f9f9f9;
+ */  padding: 20px;
+  border-radius: 8px;
+/*   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ */  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.image-section {
+  flex: 0 0 auto;
+}
+
+.logo {
+  max-width: 150px;
+  border-radius: 8px;
+
+}
+
+.content-section {
+  flex-grow: 1;
+  padding-left: 20px;
+}
+
+.title {
+/*   color: #333;
+ */  margin-top: 0;
+}
+
+.location, .position, .details {
+/*   color: #555;
+ */  margin: 8px 0;
+}
+
+.details {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
