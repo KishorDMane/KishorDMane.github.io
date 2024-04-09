@@ -1,21 +1,22 @@
 #homepage {
-   
+
     height: 600px;
     display: flex;
     padding-top: 80px;
     overflow: hidden;
-    
+
 }
 
 #homepage>div:nth-child(1) {
-   
+
     width: 40%;
-    
+
 }
+
 #homepage>div:nth-child(2) {
- 
+
     width: 70%;
-    
+
 }
 
 #image {
@@ -52,13 +53,15 @@
 #name>h1 {
     color: white;
 }
+
 #name>p {
     margin: 20px;
     font-size: large;
     color: white;
     margin-right: 90px;
 }
-#name>button{
+
+#name>button {
     padding: 20px;
     margin: 20px;
     width: 120px;
@@ -67,7 +70,8 @@
     border-radius: 10px;
     cursor: pointer;
 }
-#name>button:hover{
+
+#name>button:hover {
     color: red;
 }
 
@@ -82,111 +86,121 @@
 
 
 
-@media (max-width:940px){
-    #homepage{
+@media (max-width:940px) {
+    #homepage {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         justify-content: center;
         padding-top: 70px;
         height: auto
     }
-    #homepage>div{
+
+    #homepage>div {
         width: 80%;
         padding-top: 0px;
         margin: auto;
     }
+
     #homepage>div:nth-child(1) {
         /* border: 1px solid green; */
         width: 100%;
         margin-top: 10px;
         /* display: flex; */
         /* background-image: url("../img/Blue\ Aqua\ Minimalist\ Sea\ Soothes\ the\ Soul\ Quote\ Instagram\ Post.png"); */
-       
+
     }
-    
-#homepage>div:nth-child(1)>img{
-    width: 50%;
-}
+
+    #homepage>div:nth-child(1)>img {
+        width: 50%;
+    }
+
     #homepage>div:nth-child(2) {
         /* border: 1px solid green; */
         width: 70%;
         /* display: flex; */
         /* background-image: url("../img/Blue\ Aqua\ Minimalist\ Sea\ Soothes\ the\ Soul\ Quote\ Instagram\ Post.png"); */
-       
+
     }
+
     #name>h1:nth-child(1) {
         padding-top: 0px;
     }
-    
+
     #name>h1:nth-child(1),
     #name>h1:nth-child(2) {
         font-size: 20px;
         margin: 0px;
         margin-left: 10px;
     }
-    
+
     #name>h1:nth-child(3) {
         margin-left: 10px;
         font-size: 20px;
     }
+
     #name>p {
         margin: 10px;
-        font-size:medium;
+        font-size: medium;
         color: white;
         margin-right: 5px;
     }
 }
 
-@media (max-width:650px){
-    #homepage{
+@media (max-width:650px) {
+    #homepage {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         justify-content: center;
         padding-top: 70px;
         height: auto
     }
-    #homepage>div{
+
+    #homepage>div {
         width: 100%;
         padding-top: 0px;
         margin: auto;
     }
+
     #homepage>div:nth-child(1) {
         /* border: 1px solid green; */
         width: 100%;
         margin-top: 10px;
         /* display: flex; */
         /* background-image: url("../img/Blue\ Aqua\ Minimalist\ Sea\ Soothes\ the\ Soul\ Quote\ Instagram\ Post.png"); */
-       
+
     }
-    
-#homepage>div:nth-child(1)>img{
-    width: 50%;
-}
+
+    #homepage>div:nth-child(1)>img {
+        width: 50%;
+    }
+
     #homepage>div:nth-child(2) {
         /* border: 1px solid green; */
         width: 100%;
         /* display: flex; */
         /* background-image: url("../img/Blue\ Aqua\ Minimalist\ Sea\ Soothes\ the\ Soul\ Quote\ Instagram\ Post.png"); */
-       
+
     }
+
     #name>h1:nth-child(1) {
         padding-top: 0px;
     }
-    
+
     #name>h1:nth-child(1),
     #name>h1:nth-child(2) {
         font-size: 20px;
         margin: 0px;
         margin-left: 10px;
     }
-    
+
     #name>h1:nth-child(3) {
         margin-left: 10px;
         font-size: 20px;
     }
+
     #name>p {
         margin: 10px;
-        font-size:medium;
+        font-size: medium;
         color: white;
         margin-right: 5px;
     }
@@ -211,55 +225,123 @@
 
 
 
+.experience {
+    width: 100%;
+    height: 350px;
+  
+  margin-top: 7%;
+  display: grid;
+  align-items: center;
+  
+  }
+  
 
 
 
 
 .experience>h1 {
-    width: 20%;
+  
     margin: auto;
     padding-bottom: 20px;
+}
+
+
+
+
+
+
+.job-description {
+    display: flex;
+    padding: 20px;
+    border-radius: 8px;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.image-section {
+    flex: 0 0 auto;
+}
+
+.logo {
+    max-width: 150px;
+    border-radius: 8px;
+
+}
+
+.content-section {
+    flex-grow: 1;
+    padding-left: 20px;
+}
+
+.title {
+    margin-top: 0;
+}
+
+.location,
+.position,
+.details {
+    margin: 8px 0;
+}
+
+.details {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+
+
+
+/* Media queries for mobile and tablet screens */
+@media (max-width: 768px) {
+
+    .experience {
+        width: 100%;
+        height: 600px;
+        /* Increased height to 400px */
+
     }
-    
-    
-    
-    
-    
-    
+
+   /*  .experience>h1 {
+        display: grid;
+        justify-content: center;
+        width: 80%;
+        align-items: center;
+        border: 1px solid red;
+
+    }
+ */
+
     .job-description {
-      display: flex;
-      padding: 20px;
-      border-radius: 8px;
-    
-     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-      margin: 20px auto;
-      max-width: 800px;
+        flex-direction: column;
+        padding: 10px;
     }
-    
+
     .image-section {
-      flex: 0 0 auto;
+        margin-bottom: 10px;
+        margin-left: 20%;
+       
     }
-    
-    .logo {
-      max-width: 150px;
-      border-radius: 8px;
-    
-    }
-    
+
     .content-section {
-      flex-grow: 1;
-      padding-left: 20px;
+        padding-left: 0;
     }
+
+    .logo {
+        max-width: 100%;
+        height: auto;
+    }
+
     
-    .title {
-      margin-top: 0;
+}
+@media (max-width: 387px) {
+
+    .image-section {
+        margin-left: 10%;
+       
     }
+
     
-    .location, .position, .details {
-      margin: 8px 0;
-    }
-    
-    .details {
-      font-size: 14px;
-      line-height: 1.6;
-    }
+}
