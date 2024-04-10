@@ -1,31 +1,39 @@
-let btn = document.getElementById("button");
-btn.addEventListener("click", async () => {  
-    let downloadLink = document.createElement("a");
-    downloadLink.href = "https://drive.usercontent.google.com/u/0/uc?id=1vCoAWwfoIguQHzeeyadGaWNapsln_fDv&export=download";
-    downloadLink.target = "_blank";
-    downloadLink.click();
-
-    let viewLink = document.createElement("a");
-    viewLink.href = "https://drive.google.com/file/d/1vCoAWwfoIguQHzeeyadGaWNapsln_fDv/view?usp=sharing";
-    viewLink.target = "_blank";
-    viewLink.click();
-});
-
 
 
 
 let resumeDownload = document.getElementById("resumeDownload");
-resumeDownload.addEventListener("click", async () => {  
-    let downloadLink = document.createElement("a");
-    downloadLink.href = "https://drive.usercontent.google.com/u/0/uc?id=1vCoAWwfoIguQHzeeyadGaWNapsln_fDv&export=download";
-    downloadLink.target = "_blank";
-    downloadLink.click();
-
-    let viewLink = document.createElement("a");
-    viewLink.href = "https://drive.google.com/file/d/1vCoAWwfoIguQHzeeyadGaWNapsln_fDv/view?usp=sharing";
-    viewLink.target = "_blank";
-    viewLink.click();
+resumeDownload.addEventListener("click", async () => {
+   window.open("https://drive.usercontent.google.com/u/0/uc?id=1H_JGLi0cdjqEJMMIawHgZu1XLtKhGJ6Y&export=download");
+   
 });
+
+
+
+
+
+let btn = document.getElementById("button");
+btn.addEventListener("click", async () => {  
+    window.open("https://drive.usercontent.google.com/u/0/uc?id=1H_JGLi0cdjqEJMMIawHgZu1XLtKhGJ6Y&export=download");
+     
+});
+
+
+let resumeDownload1 = document.getElementById("resumeDownload");
+resumeDownload1.addEventListener("click", async () => {
+   window.open("https://drive.google.com/file/d/1H_JGLi0cdjqEJMMIawHgZu1XLtKhGJ6Y/view?usp=drive_link");
+   
+});
+
+
+
+
+
+let btn1 = document.getElementById("button");
+btn1.addEventListener("click", async () => {  
+    window.open("https://drive.google.com/file/d/1H_JGLi0cdjqEJMMIawHgZu1XLtKhGJ6Y/view?usp=drive_link");
+     
+});
+
 
 document.getElementById("OverStock_git").addEventListener("click",()=>{
     window.open("https://github.com/rohithanss/OverStock-Clone")
@@ -54,13 +62,6 @@ document.getElementById("snapdesk_deployse").addEventListener("click",()=>{
     window.open("https://scintillating-selkie-f0b500.netlify.app")
 })
 
-document.getElementById("HMS_git").addEventListener("click",()=>{
-    window.open("https://github.com/AFORANURAG/uneven-taste-145")
-})
-document.getElementById("HMS_deployed").addEventListener("click",()=>{
-    window.open("https://hmsfrontend-eight.vercel.app/")
-})
-
 
 
 
@@ -74,11 +75,4 @@ document.getElementById("linkedinprofile").addEventListener("click",()=>{
 
 
 
-const links = document.querySelectorAll('nav ul li a');
 
-links.forEach(link => {
-  link.addEventListener('click', () => {
-    const checkbox = document.getElementById('click');
-    checkbox.checked = false;
-  });
-});
